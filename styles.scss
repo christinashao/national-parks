@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+
+#landing-img {
+    width: 100vw;
+    height: 54.86vw;
+}
+#landing-title {
+    position: fixed;
+    left: calc(50vw - 325px);
+    top: 135px;
+    font-family: Overpass, sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 96px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+}
+#landing-rectangle {
+    position: fixed;
+    width: 442px;
+    height: 85px;
+    left: calc(50vw - 221px);
+    top: 387px;
+    background: rgba(0, 0, 0, 0.75);
+}
+#landing-subtitle {
+    position: fixed;
+    width: 380px;
+    height: 55px;
+    left: calc(50vw - 190px);
+    top: 402px;
+    font-family: Libre Baskerville, serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;    
+    color: #FFFFFF;
+}
+
+.section-title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+}
+.info {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.section-title.natives {
+    position: absolute;
+    width: 431px;
+    height: 59px;
+    left: 128px;
+    top: 908px;
+}
+.info.natives {
+    position: absolute;
+    width: 40vw;
+    height: 316px;
+    left: 125px;
+    top: 1004px;
+    list-style-type: none;
+}
+.info.natives li {
+    margin-bottom: 8px;
+}
+img.natives {
+    position: absolute;
+    width: 403px;
+    height: 417px;
+    left: 910px;
+    top: 938px;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 18px;
+    position: absolute;
+    width: 571px;
+    height: 48px;
+    left: 131px;
+    top: 1500px;
+    background: #FFFFFF;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.collapsible:after {
+    content: '\02795';
+    font-size: 16px;
+    margin-left: 15px;
+}
+.active:after {
+    content: "\2796";
+}
+.content {
+    margin-left: 15px;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 600px;
+    height: 157px;
+    left: 131px;
+    top: 1548px;
+    font-family: Libre Baskerville;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#background {
+    position: absolute;
+    width: 100vw;
+    height: 1015px;
+    left: 0px;
+    top: calc(54.86vw - 5px);
+    background: #FFFFFF;
+}
