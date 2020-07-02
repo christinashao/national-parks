@@ -7,7 +7,9 @@
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>        
         <img id="landing-img" src="images/yosemite.jpg"/>
@@ -15,21 +17,142 @@
         <div id="landing-rectangle"></div>
         <div id="landing-subtitle">culture + history</div>
 
+
         <div id="background"></div>
 
-        <div class="section-title natives">Native Americans</div>
-        <ul class="info natives">
-            <li>Archeologists believe the Yosemite area has been inhabited for 8,000 years.</li>
-            <li>The Southern Miwok people were the last native group to live in the area before non-native contact.</li>
-            <li>Native Americans who lived in Yosemite Valley called themselves Ahwahneechee.</li>
-            <li>Yosemite Valley was called Ahwahnee, which meant “gaping mouth-like place.”</li>
-        </ul>
-        <img class="natives" src="images/native.jpg"/>
 
-        <button type="button" class="collapsible">Works Cited</button>
-        <div class="content">
-            <p>“Yosemite Indians.” <i>National Parks Service</i>, U.S. Department of the Interior, <a href="https://www.nps.gov/yose/learn/historyculture/yosemite-indians.htm" target="_blank">www.nps.gov/yose/learn/historyculture/yosemite-indians.htm</a>.</p>
+        <div class="info intro">
+            Home to towering granite cliffs, thundering waterfalls, and some of the most breathtaking views, Yosemite Valley and the surrounding areas leave no room for question as to why the region is set aside as a national park. Yet few of its several thousand daily tourists are aware of the park's rich history and culture. From its rocky spires to its bubbling creeks, each aspect of Yosemite National Park tells stories of losses, discoveries, peace, and violence.
         </div>
+
+        <div id="contents">
+            <div id="contents-title">Contents</div>
+            <div id="contents-line"></div>
+            <a class="contents-link" href="#native-americans">Native Americans</a><br>
+            <a class="contents-link" href="#african-americans">African Americans</a><br>
+            <a class="contents-link" href="#chinese-americans">Chinese Americans</a><br>
+            <a class="contents-link" href="#yosemite-today">Yosemite Today</a>
+        </div>
+
+
+        <div id="native-americans" class="section-title natives-title">Native Americans</div>
+
+        <div class="info natives-info-1">
+            Before the area was taken over by non-natives, Native Americans had been living in the Yosemite area for almost 4,000 years. The Southern Miwok people were the last native group to live in the area before European contact. Groups such as the Central Miwok, Mono Lake Paiute, Chukchansi Yokuts, and Western Mono also resided there for periods of time. Meaning “gaping mouth-like place,” Ahwahnee was the name given to Yosemite Valley by its native residents, who came to call themselves Ahwahneechee.
+        </div>
+        <img class="natives-img-1" src="images/native.jpg"/>
+        <div class="caption natives-caption-1">Native Americans in Yosemite Valley</div>
+
+        <img class="natives-img-2" src="images/acorns.jpg"/>
+        <div class="caption natives-caption-2">Maggie Howard (Tabuce) prepares acorns</div>
+        <div class="section-header natives-header-1">Lifestyle</div>
+        <div class="info natives-info-2">
+            <div><a id="popup-acorn-text" href="https://www.friendsofthewildflowergarden.org/pages/plants/oak_black.html" target="_blank">Black oak acorns</a> comprised much of the diet of Native Americans in the Yosemite area. The acorns could be stored for long periods of time in chuckahs built by the natives. They prepared the acorns by pounding the nuts into flour in special pounding rocks. After tannins were removed from the flour, the dough was boiled in water by placing heated stones in the mixture.</div>
+            <div>A smooth, black, glass-like volcanic rock, obsidian was a key resource in creating tools and weapons. It could be made into sharp points and edges through a process called knapping.</div>
+            <div>The Yosemite Native Americans often traded both resources and culture with other groups in the area.</div>
+        </div>
+
+        <div class="section-header natives-header-2">Gold and the Mariposa War</div>
+        <div class="info natives-info-3">
+            <div>Beginning in 1849, non-natives flocked to the Sierra Nevada in search of gold, roaming through areas inhabited by Native Americans for thousands of years. It was during this period that the first non-natives discovered Yosemite Valley.</div>
+            <div>The first confirmed entering of the valley by non-natives was in 1851, when the state-sponsored Mariposa Battalion drove the Miwok people from their homes, burning villages and food supplies. Despite the violence of the militia, they were unsuccessful in forcing the natives to relocate to reservations.</div>
+            <div>As the Native Americans forever lost their original homes, European settlers began taking over the area, influencing the lifestyles of the natives.</div>
+        </div>
+        <img class="natives-img-3" src="images/settlers.jpg"/>
+        <div class="caption natives-caption-3">European influence gradually increased in the Yosemite area</div>
+
+        <img class="natives-img-4" src="images/village.jpg"/>
+        <div class="caption natives-caption-4">A reconstructed Native American village from 1976</div>
+        <div class="section-header natives-header-3">Population Decline</div>
+        <div class="natives-info-4">
+            <div>1910</div>
+            <div>Less than 10% of the original Ahwahneeche people were alive.</div>
+            <div>1930s</div>
+            <div>The remaining natives moved their village to a new location in Yosemite under the supervision of the National Park Service.</div>
+            <div>1969</div>
+            <div>The new village was eventually taken down.</div>
+        </div>
+
+
+        <div id="african-americans" class="section-title african-title">African American Buffalo Soldiers</div>
+
+        <div class="info african-info-1">
+            Many of Yosemite National Park’s first park rangers were from African American army regiments formed after the Civil War. These African American soldiers were nicknamed Buffalo Soldiers, and many fought in the Indian Wars and other later wars. Some eventually patrolled Yosemite National Park and the surrounding Sierra Nevada as rangers, stationed at the Presidio of San Francisco in the winter.
+        </div>
+        <img class="african-img-1" src="images/soldiers.jpg"/>
+        <div class="caption african-caption-1">Yosemite Buffalo Soldiers from the 24th Mounted Infantry</div>
+
+        <img class="african-img-2" src="images/soldiers-tree.jpg"/>
+        <div class="caption african-caption-2">Soldiers from the 9th Cavalry with a fallen giant sequoia</div>
+        <div class="info african-info-2">
+            <div>Despite their service to the army, these Buffalo Soldiers constantly faced racism and unequal treatment. It was often challenging to maintain authority over people who did not respect them.</div>
+            <div>These African American park rangers also helped with the construction of roads and trails in nearby Sequoia National Park, built an arboretum in Yosemite, and did much more to make the parks more accessible to visitors.</div>
+        </div>
+
+
+        <div id="chinese-americans" class="section-title chinese-title">Chinese Americans</div>
+
+        <div class="info chinese-info-1">
+            After the Gold Rush and the building of the Transcontinental Railroad, some of California’s Chinese immigrants went to work in the Yosemite area, constructing roads for tourists going to Yosemite Valley or taking jobs as chefs and laundry workers.
+        </div>
+
+        <img class="chinese-img-1" src="images/tioga.png"/>
+        <div class="caption chinese-caption-1">Tioga Road after its completion</div>
+        <div class="info chinese-info-2">
+            <div>Starting in 1882, around 250 Chinese and 90 white workers started constructing Tioga Road, which passes through Yosemite’s Tuolumne Meadows. They finished the 56 miles of road in 130 days. Though they worked the same jobs, the Chinese workers were paid $1.20 per day and the white workers were paid $1.50 per day.</div>
+            <div>Reminiscent of the types of work the Chinese did on the Transcontinental Railroad, 100 Chinese workers also blasted through “a three-quarter-mile stretch of granite rock along Tenaya Lake.”</div>
+        </div>
+
+        <img class="chinese-img-2" src="images/hotel.jpg"/>
+        <div class="caption chinese-caption-2">The Wawona Hotel</div>
+        <div class="info chinese-info-3">
+            <div>In Yosemite Valley, around twenty Chinese had laundry and kitchen jobs in the Wawona Hotel. Among the kitchen staff was the head chef Ah You, who was hired in the late 19th century. By the end of his 47 years as head chef, he had prepared meals for presidents Rutherford B. Hayes, Benjamin Harrison, Theodore Roosevelt, and William Howard Taft. Many other hotels in the Yosemite area also hired Chinese cooks, bakers, and laundry staff.</div>
+            <div>From 1888 to 1918, the head chef for the United States Geological Survey (USGS) was a Chinese chef named Tie Sing. The USGS enjoyed his cooking and eventually named one of Yosemite’s mountain peaks Sing Peak.</div>
+        </div>
+
+
+        <img id="yosemite-today" class="today-img" src="images/yosemite-2.jpg"/>
+        <div class="today-title">Yosemite Today</div>
+        <div class="today-rectangle"></div>
+        <div class="today-info">Today, Yosemite National Park is one of California’s most popular tourist attractions, with over 4 million visitors annually. While most of the visitors are from the United States, many tourists are from countries around the world. At least a quarter of the park’s total visitors identify as non-Causasian. Yosemite continues to be a place of not only immense natural beauty but also a place where vastly different cultures come together to appreciate its wonders.</div>
+
+
+        <!-- <button type="button" class="collapsible">Works Cited</button>
+        <div class="content">
+            <div>“Buffalo Soldiers.” <i>National Parks Service</i>, U.S. Department of the Interior, www.nps.gov/yose/learn/historyculture/buffalo-soldiers.htm.</div>
+            <div>Chan, Yenyen F. “Interpreting the Contributions of Chinese Immigrants in Yosemite National Park’s History.” <i>George Wright Forum</i>, vol. 34, no. 3, Dec. 2017, pp. 299–307.</div>
+            <div>Mason, Kathy S. “Buffalo Soldiers as Guardians of the Parks: African‐American Troops in the California National Parks in the Early Twentieth Century.” <i>Historian</i>, vol. 81, no. 1, Spring 2019, pp. 84–98.</div>
+            <div>“Park Statistics.” <i>National Parks Service</i>, U.S. Department of the Interior, www.nps.gov/yose/learn/management/statistics.htm.</div>
+            <div>Trexler, Keith A. <i>The Tioga Road: A History, 1883-1961</i>. Yosemite Association, 1980.</div>
+            <div>“Yosemite Indians.” <i>National Parks Service</i>, U.S. Department of the Interior, <a href="https://www.nps.gov/yose/learn/historyculture/yosemite-indians.htm" target="_blank">www.nps.gov/yose/learn/historyculture/yosemite-indians.htm</a>.</div>
+        </div> -->
+        <div class="cited-info-box"></div>
+        <div class="cited-header-box"></div>
+        <div class="cited-header">Works Cited</div>
+        <div class="cited-info">
+            <div>“Buffalo Soldiers.” <i>National Parks Service</i>, U.S. Department of the Interior, <a href="https://www.nps.gov/yose/learn/historyculture/buffalo-soldiers.htm" target="_blank">www.nps.gov/yose/learn/historyculture/buffalo-soldiers.htm</a>.</div>
+            <div>Chan, Yenyen F. “Interpreting the Contributions of Chinese Immigrants in Yosemite National Park’s History.” <i>George Wright Forum</i>, vol. 34, no. 3, Dec. 2017, pp. 299–307.</div>
+            <div>Mason, Kathy S. “Buffalo Soldiers as Guardians of the Parks: African‐American Troops in the California National Parks in the Early Twentieth Century.” <i>Historian</i>, vol. 81, no. 1, Spring 2019, pp. 84–98.</div>
+            <div>“Park Statistics.” <i>National Parks Service</i>, U.S. Department of the Interior, <a href="https://www.nps.gov/yose/learn/management/statistics.htm" target="_blank">www.nps.gov/yose/learn/management/statistics.htm</a>.</div>
+            <div>Trexler, Keith A. <i>The Tioga Road: A History, 1883-1961</i>. Yosemite Association, 1980.</div>
+            <div>“Yosemite Indians.” <i>National Parks Service</i>, U.S. Department of the Interior, <a href="https://www.nps.gov/yose/learn/historyculture/yosemite-indians.htm" target="_blank">www.nps.gov/yose/learn/historyculture/yosemite-indians.htm</a>.</div>
+        </div>
+        
+        <img id="footer-img" src="images/yosemite-3.jpg"/>
+        <div id="footer-info">created by Christina Shao</div>
+
+
+        <div id="popup-acorn">
+            <div class="box"></div>
+            <img src="images/popups/acorn.jpg"/>
+            <a>click below for source</a>
+        </div>
+
+
+        <a href="#" id="top">
+            <div id="up">^</div>
+            <div class="tooltip">top</div>
+        </a>
 
         <script src="index.js"></script>
     </body>

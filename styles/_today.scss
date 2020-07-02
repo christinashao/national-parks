@@ -1,0 +1,43 @@
+.today-img {
+    position: absolute;
+    width: 1440px;
+    height: 524px;
+    left: 0px;
+    top: 6544px;
+}
+.today-title {
+    position: absolute;
+    width: 388px;
+    height: 59px;
+    left: 525px;
+    top: 6628px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;    
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px #000000;
+}
+.today-rectangle {
+    position: absolute;
+    width: 1092px;
+    height: 257px;
+    left: 174px;
+    top: 6737px;
+    background: rgba(0, 0, 0, 0.65);
+}
+.today-info {
+    position: absolute;
+    width: 968px;
+    height: 168px;
+    left: 236px;
+    top: 6782px;    
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    text-align: justify;
+    color: #FFFFFF;
+}

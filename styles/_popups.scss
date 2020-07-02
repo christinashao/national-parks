@@ -1,0 +1,38 @@
+#popup-acorn-text {
+    color: blue;
+    &:hover {
+        cursor: pointer;
+    }
+}
+#popup-acorn {
+    .box {
+        position: absolute;
+        width: 264px;
+        height: 267px;
+        left: 665px;
+        top: 2158px;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    img {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        left: 692px;
+        top: 2183px;
+    }
+    a {
+        position: absolute;
+        width: 130px;
+        height: 21px;
+        left: 732px;
+        top: 2397px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 175%;
+        text-align: justify;
+        color: #000000;
+    }
+}
