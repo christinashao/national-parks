@@ -2,7 +2,13 @@
     $('#popup-acorn').hide();
     $('#popup-acorn-text').hover(
         () => { $('#popup-acorn').show(); },
-        () => { $('#popup-acorn').hide(); }    
+        () => { $('#popup-acorn').hide(); }
+    );
+
+    $('#popup-chuckah').hide();
+    $('#popup-chuckah-text').hover(
+        () => { $('#popup-chuckah').show(); },
+        () => { $('#popup-chuckah').hide(); }
     );
 })();
 

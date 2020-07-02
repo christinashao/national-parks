@@ -593,6 +593,30 @@ a {
   color: #000000;
 }
 
+#popup-chuckah-text {
+  color: blue;
+}
+#popup-chuckah-text:hover {
+  cursor: pointer;
+}
+
+#popup-chuckah .box {
+  position: absolute;
+  width: 264px;
+  height: 225px;
+  left: 960px;
+  top: 2267px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#popup-chuckah img {
+  position: absolute;
+  width: 215px;
+  height: 174px;
+  left: 984px;
+  top: 2292px;
+}
+
 #footer-img {
   position: absolute;
   width: 1440px;
